@@ -15,7 +15,7 @@ libraryDependencies ++= Seq(
 testOptions += Tests.Argument(TestFrameworks.JUnit, "-v")
 
 // set the main class for 'sbt run'
-mainClass in (Compile, run) := Some("PatternsDriver")
+mainClass in (Compile, run) := Some("WorkingWithListsDriver")
 
 name := "SLF4JTest"
 
